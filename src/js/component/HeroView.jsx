@@ -16,39 +16,51 @@ const HeroView = () => {
 								<h1>Kacey Dawson</h1>
 								<h3>Front End Web Developer</h3>
 								<hr className="intro-divider" />
-								<ul className="list-inline intro-social-buttons">
+								<ul className="d-inline intro-social-buttons">
 									<li>
-										<a
-											href="https://www.linkedin.com/in/kaceydawson/"
-											className="btn btn-default btn-lg"
-											rel="noopener">
-											<i className="fa fa-linkedin fa-fw" />{" "}
-											<span className="network-name">
-												Linkedin
-											</span>
-										</a>
+										<button
+											type="button"
+											className="btn btn-default btn-lg">
+											<a
+												href="https://www.linkedin.com/in/kaceydawson/"
+												rel="noopener">
+												<i className="fab fa-linkedin-in" />
+												<span className="network-name">
+													{" "}
+													Linkedin
+												</span>
+											</a>
+										</button>
 									</li>
 									<li>
-										<a
-											href="https://www.facebook.com/dawson.kacey"
-											className="btn btn-default btn-lg"
-											rel="noopener">
-											<i className="fa fa-facebook fa-fw" />{" "}
-											<span className="network-name">
-												Facebook
-											</span>
-										</a>
+										<button
+											type="button"
+											className="btn btn-default btn-lg">
+											<a
+												href="https://www.facebook.com/dawson.kacey"
+												rel="noopener">
+												<i className="fab fa-facebook-f" />
+												<span className="network-name">
+													{" "}
+													Facebook
+												</span>
+											</a>
+										</button>
 									</li>
 									<li>
-										<a
-											href="https://www.instagram.com/kaceydawson75/"
-											className="btn btn-default btn-lg"
-											rel="noopener">
-											<i className="fa fa-instagram fa-fw" />{" "}
-											<span className="network-name">
-												Instagram
-											</span>
-										</a>
+										<button
+											type="button"
+											className="btn btn-default btn-lg">
+											<a
+												href="https://www.instagram.com/kaceydawson75/"
+												rel="noopener">
+												<i className="fab fa-instagram" />
+												<span className="network-name">
+													{" "}
+													Instagram
+												</span>
+											</a>
+										</button>
 									</li>
 								</ul>
 							</div>
